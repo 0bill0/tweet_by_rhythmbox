@@ -1,5 +1,5 @@
 #coding:utf8
-''''
+'''
 The MIT License
 
 Copyright (c) 2014 Guilherme Luiz Lessa
@@ -20,8 +20,9 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-''''
+THE SOFTWARE.'''
+
+
 import tweepy
 import shlex, subprocess
 
@@ -32,7 +33,7 @@ CONSUMER_SECRET = '' #your consumer_secret
 ACCESS_TOKEN_KEY= '' #your token_key
 ACCESS_TOKEN_SECRET= ''#your token_secret
 
-message = "Estou ouvindo a música " #edit the message before of <name_music> here
+message = "Estou ouvindo #" #edit the message before of <name_music> here
 
 def tweet(status):
     if len(status) > 140:
