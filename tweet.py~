@@ -1,4 +1,27 @@
 #coding:utf8
+''''
+The MIT License
+
+Copyright (c) 2009 Hugo Lopes Tavares
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+''''
 import tweepy
 import shlex, subprocess
 
@@ -6,10 +29,10 @@ import shlex, subprocess
 CONSUMER_KEY = '' #your consumer_key
 CONSUMER_SECRET = '' #your consumer_secret
 #set this from http://dev.twitter.com/apps/myappid/my_token
-ACCESS_TOKEN_KEY= '160253399-h3gTzH1rF3B6WX5eDKHeaFWmNXE62UTANP7uHAej'
-ACCESS_TOKEN_SECRET= '7qQJjmYXp6Em9kBG9rDjinHf5EBEgYEJ22hllB3G59U3G'
+ACCESS_TOKEN_KEY= ''
+ACCESS_TOKEN_SECRET= ''
 
-message = "Estou ouvindo a música "
+message = "Estou ouvindo a música " #edit the message before of <name_music> here
 
 def tweet(status):
     if len(status) > 140:
